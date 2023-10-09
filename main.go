@@ -21,10 +21,10 @@ func printGreeting(eb englishBot) {
 // 	fmt.Println(sb.getGreeting())
 // }
 
-func (eb englishBot) getGreeting() string {
+func (englishBot) getGreeting() string {
 	return "Hi There!"
 }
 
-func (sb spanishBot) getGreeting() string {
+func (spanishBot) getGreeting() string {
 	return "Hola!"
 }
